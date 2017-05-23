@@ -27,7 +27,7 @@ public class Main {
 	        	InformacoesJogadores player= gson.fromJson(json_string, InformacoesJogadores.class);
 	        	for(Atleta aux: player.getAtletas()){
 	        		if(aux.getJogos_num() > 0)
-	        			System.out.println(aux.getApelido());
+	        			System.out.println(""+aux.getApelido());
 	        	}
 	        	
 	        }
